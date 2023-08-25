@@ -1,0 +1,15 @@
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\bin\Debug\net6.0\DependencyInjection.exe
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\bin\Debug\net6.0\DependencyInjection.deps.json
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\bin\Debug\net6.0\DependencyInjection.runtimeconfig.json
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\bin\Debug\net6.0\DependencyInjection.dll
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\bin\Debug\net6.0\DependencyInjection.pdb
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.csproj.AssemblyReference.cache
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.AssemblyInfoInputs.cache
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.AssemblyInfo.cs
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.csproj.CoreCompileInputs.cache
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.dll
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\refint\DependencyInjection.dll
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.pdb
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\DependencyInjection.genruntimeconfig.cache
+E:\MVC_PROJECTS\DependencyInjectionAndServiceLifetime\DependencyInjection\obj\Debug\net6.0\ref\DependencyInjection.dll

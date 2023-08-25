@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PxzJ8cv7pGq8tP1NYFgRYv5bH3FIii0Rs95nGoW108aSK+eTDcZkHtghsy9YWO7XFGKR8BEpJC6yCbOapbjmvA==",
+  "success": true,
+  "projectFilePath": "E:\\MVC_PROJECTS\\DependencyInjectionAndServiceLifetime\\ServiceLifetime\\ServiceLifetime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asadc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\asadc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
