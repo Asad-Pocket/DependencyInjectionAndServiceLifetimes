@@ -1,42 +1,39 @@
 ﻿using System;
 
-// Define interfaces for dependencies
-public interface IWheels
+// Dependency classes
+public interface WaterProtection
 {
-    void Rotate();
+    void Launch();
 }
-
-// Define different wheel implementations
-public class MRFWheels : IWheels
+public class WaterResistant : WaterProtection
 {
-    public void Rotate()
+    public void Launch()
     {
-        Console.WriteLine("MRF Wheels rotating...");
+        Console.WriteLine("Apple Watch launch as Water Resistant version");
+    }
+}
+public class WaterProof : WaterProtection
+{
+    public void Launch()
+    {
+        Console.WriteLine("Apple Watch launch as Water Proof version");
     }
 }
 
-public class YokohamaWheels : IWheels
+class AppleWatch
 {
-    public void Rotate()
-    {
-        Console.WriteLine("Yokohama Wheels rotating...");
-    }
-}
+    private WaterProtection _waterProtection;
 
-// Car class with dependency injection
-public class Car
-{
-    private readonly IWheels _wheels;
-
-    public Car(IWheels wheels)
+    public AppleWatch(WaterProtection waterProtection)
     {
-        _wheels = wheels;
+        _waterProtection = waterProtection;
     }
 
-    public void Drive()
+    public void DisplayInfo()
     {
-        Console.WriteLine("Car is driving...");
-        _wheels.Rotate();
+        Console.WriteLine("AppleWatch Info:");
+        _waterProtection.Launch();
+        Console.WriteLine();
     }
 }
 
@@ -44,14 +41,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create a car with MRFWheels
-        IWheels mrfWheels = new MRFWheels();
-        Car carWithMRF = new Car(mrfWheels);
-        carWithMRF.Drive();
+        // Original objects
+        WaterProtection originalWaterProtection = new WaterResistant();
 
-        // Create a car with YokohamaWheels
-        IWheels yokohamaWheels = new YokohamaWheels();
-        Car carWithYokohama = new Car(yokohamaWheels);
-        carWithYokohama.Drive();
+        // Creating an AppleWatch object with original dependencies
+        AppleWatch originalAppleWatch = new AppleWatch(originalWaterProtection);
+        originalAppleWatch.DisplayInfo();
+
+        // New object
+        WaterProtection _NewWaterProtection = new WaterProof();
+
+        // Creating an AppleWatch object with updated water protection dependency
+        AppleWatch updatedAppleWatch = new AppleWatch(_NewWaterProtection);
+        updatedAppleWatch.DisplayInfo();
     }
 }
